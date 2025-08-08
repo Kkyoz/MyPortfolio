@@ -310,6 +310,13 @@ button {
   transition: background-color 0.3s;
 }
 button:hover { background-color: #005c8c; }
+.contactButtons {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  flex-wrap: wrap;   /* wraps nicely on mobile */
+  margin-top: 8px;
+}
 
 /* Misc responsive (legacy) */
 @media (max-width: 768px) {
